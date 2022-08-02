@@ -1,0 +1,1 @@
+create table hotel.booking(bookingId bigint auto_increment, fromDate Date, toDate Date, aadharNumber varchar(255), numOfRooms int, roomNumbers int , roomPrice int, transactionId int default=0, bookedOn Date);
